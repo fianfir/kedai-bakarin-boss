@@ -1,5 +1,5 @@
 :root {
-  --primary: #b6895b;
+  --primary: orange;
   --bg: #010101;
 }
 
@@ -175,7 +175,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/header1-bg.jpg");
+  background-image: url("../img/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -188,7 +188,7 @@ body {
   position: absolute;
   /* background: salmon; */
   inset: 0;
-  -webkit-mask-image: url("../img/header1-bg.svg");
+  -webkit-mask-image: url("../img/home.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   -webkit-mask-position: center;
@@ -203,9 +203,11 @@ body {
 }
 
 .hero .content h1 {
-  font-size: 4em;
+  font-size: 2em;
+  margin-left: 20%;
+  margin-right: 20%;
   color: #fff;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  text-shadow: 2px 2px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
 }
 
@@ -266,9 +268,9 @@ body {
 }
 
 .about .row .about-img img {
-  width: 95%;
+  width: 100%;
   -webkit-mask-image: url("../img/Menu/2174691.svg");
-  -webkit-mask-size: 50%;
+  -webkit-mask-size: 65%;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
 }
@@ -375,7 +377,7 @@ body {
 }
 
 .products .product-image img {
-  height: 25rem;
+  height: 15rem;
 }
 
 .products .product-content h3 {
